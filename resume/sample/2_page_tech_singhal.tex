@@ -1,0 +1,249 @@
+\documentclass{article}
+\usepackage[a4paper,bottom = 0.75in,left = 0.75in,right = 0.75in,top = 0.75in]{geometry}
+\usepackage{graphicx}
+\usepackage{lmodern}
+\usepackage{amsmath}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{enumitem,xcolor}
+\usepackage{wrapfig}
+\usepackage{microtype}
+\usepackage{titlesec}
+\usepackage{textcomp}
+\usepackage[colorlinks=false]{hyperref}
+\usepackage{verbatim}
+\usepackage[usenames, dvipsnames]{color}
+\definecolor{myblue}{RGB}{76,81,150}
+\newcommand{\xfilll}[2][1ex]{
+\dimen0=#2\advance\dimen0 by #1
+\leaders\hrule height \dimen0 depth -#1\hfill}
+\titleformat{\section}{\large\scshape\raggedright}{}{0em}{}
+\renewcommand\labelitemi{\raisebox{0.4ex}{\tiny$\bullet$}}
+\renewcommand{\labelitemii}{$\cdot$}
+\pagenumbering{gobble}
+\begin{document}
+\vspace*{3.9cm}  
+{\fontfamily{cmss}\selectfont
+\hspace{-14pt}Pursuing a \textbf{Minor Degree} in \textbf{Computer Science and Engineering} Department with minor degree CPI of \textbf{9.5} 
+\vspace{-14pt}
+
+
+%-------------------------------------------------------------------------------------
+%   EDUCATION SECTION
+%-------------------------------------------------------------------------------------
+
+\section*{{\LARGE \color{myblue}Scholastic Achievements\xfilll[0pt]{1pt}}}
+\vspace{-6pt}
+\begin{itemize}[label=\textcolor{myblue}{\textbullet},itemsep = -0.75 mm, leftmargin=5.5mm]
+%\item \noindent Achieved \textbf{99.5\%} percentile in \textbf{JEE Mains} amongst 12 lakh candidates \hfill{\em 2016}
+%\item \noindent Pursuing a \textbf{minor} in the department \textbf{Computer Science Engineering} \hfill{\em 2017}
+\item \noindent Awarded \textbf {AP Grade} for outstanding performance in the course on \textbf{Network Theory} \hfill{\em 2017}
+\item \noindent Secured \textbf{All India Rank 368} out of 1.5 lakh candidates in \textbf{JEE Advanced} \hfill{\em 2016}
+\item \noindent Recipient of prestigious \textbf{Kishore Vaigyanik Protsahan Yojana}(KVPY) Scholarship \hfill{\em 2015}
+\item \noindent Awarded certificate of merit for statewise \textbf{top 1\%} in \textbf{National Standard Examination in Physics} \hfill{\em 2015}
+\item \noindent Qualified for \textbf{Indian National Chemistry Olympiad} (INChO) based on performance in NSEC \hfill{\em 2015}
+\end{itemize}
+\vspace{-20pt}
+
+%-------------------------------------------------------------------------------------
+%  INTERNSHIPS 
+
+%-------------------------------------------------------------------------------------
+
+\section*{\LARGE \color{myblue}Internships\xfilll[0pt]{1pt}}
+\vspace{-6pt}   
+\textbf{\large OkCredit, Bangalore} \hfill{\ \em May'18-Jul'18}\\
+{\it OkCredit is a mobile based digital ledger for small businesses in India that extend credit to their customers}\\
+\vspace{-15pt}
+\begin{itemize}[label=\textcolor{myblue}{\textbullet},itemsep = -0.75 mm, leftmargin=5.5mm]
+%\item Engineered the infrastructure for user application analytics data collection
+    %\item Designed the infrastructure to collect user interactions from the mobile application %for targetted communication with them 
+	%\item Built a server in \textbf{Golang} to store data in a \textbf{Cassandra} database and transfer the data to Amazon S3   
+	%\item Created an \textbf{Android Library} to store user application analytics locally and send it to the server
+	%\item Created an \textbf{Android Library} which stores the data locally and sends it to a server built in Golang
+	\item Designed infrastructure to collect user interactions from the mobile app for targeted communication with them
+	\vspace{-6pt}
+	\begin{itemize}
+	    \item Built a server in \textbf{Google Go} to store data in a \textbf{Cassandra} database and transfer it to \textbf{Amazon S3} daily \setlength\itemsep{-0.1em}
+	    \item Created an \textbf{Android Library} to store the user data locally and send it to the server
+	\end{itemize}
+	\vspace{-4pt}
+	\item Developed user authentication service in Google Go based on \textbf{Oauth 2.0} for mobile and web applications
+	\item Devised and performed \textbf{unit}, \textbf{load tests} of REST APIs to calculate their maximum load as function of resources
+\end{itemize}
+\vspace{-15pt}
+
+%-------------------------------------------------------------------------------------
+%   KEY PROJECTS
+%-------------------------------------------------------------------------------------
+
+\section*{\LARGE \color{myblue}Key Projects\xfilll[0pt]{1pt}}
+\vspace{-6pt}
+\textbf{\large Electrical Subsystem, Advitiy} \hfill{\em Feb'17-Present}\\
+{\it Advitiy is the 2nd student satellite of IITB, technically advanced and efficient version of the 1st, Pratham}\\\vspace{-15pt}
+\begin{itemize}[label=\textcolor{myblue}{\textbullet},itemsep = -0.75 mm, leftmargin=5.5mm]
+\vspace{-2.5pt}
+\item Critically analyzed various parameters and constraints to \textbf{finalize the microcontroller} of On Board Computer
+\item Proposed the use of \textbf{Real Time Operating System} (RTOS) to carry out the scheduling of tasks being run on the On Board Computer and conceptualized a \textbf{scheduling algorithm} for the same
+\item Performed \textbf{functionality test} on flight hardware of Pratham to get familiar with source code and its peripherals %of the satellite
+	\item Interfaced \textbf{Magnetometer} with On Board Computer using \textbf{UART} Communication Protocol 
+%	\item Contributed to \textbf{Wiki} on \emph{ "How to select an On Board Computer for Satellite"}
+	%\item Contributed to \textbf{Satellite 101- Electrical Wiki} on \emph{"How to select an On Board Computer for Satellite"} for the benefit of the institutes across the subcontinent aiming to start their own Student Satellite Project
+	%\item Studied and executed \textbf{Watch Dog Timer} on Atmel micro-controller to ensure execution in given time
+\end{itemize}
+\vspace{-2.5pt}
+\textbf{\large{Encrypted Audio Transmission using Chaotic Circuits}} \hfill{\em Apr'18}\\
+{\it{Guide: Prof. Siddharth Tallur, Electrical Engineering}}\hfill{\it{Course Project} }
+\begin{itemize}[label=\textcolor{myblue}{\textbullet},itemsep = -0.75 mm, leftmargin=5.5mm]\vspace{-2.5pt}
+\item Designed and implemented a third order \textbf{chaotic oscillator} for encryption and decryption of audio signals
+	%\item Encrypted the audio signal using the white noise created by the chaotic transmitting oscillator and coupled it to the receiver to produce the same \textbf{unique chaotic signal} to recover the signal
+	\item Encrypted audio signal using \textbf{white noise} created by the chaotic transmitting oscillator
+	\item Coupled receiver with transmitter circuit to produce the same \textbf{unique chaotic noise} in order to recover the signal
+	\item Simulated the system in \textbf{NGSpice} and verified the results by implementing the system on PCB
+\end{itemize}
+\vspace{-2.5pt}
+\textbf{\large Lazy Lock: Automatic Lock} \hfill{\em May'17-Jan'17}\\
+{\it Institute Technical Summer Project}\hfill{\it Institute Technical Council}\\\vspace{-15pt}
+\begin{itemize}[label=\textcolor{myblue}{\textbullet},itemsep = -0.75 mm, leftmargin=5.5mm]
+\vspace{-2.5pt}
+\item Designed and implemented an automated door unlocking mechanism which unlocks by \textbf{gesture detection}, \textbf{knock pattern} and remotely from an \textbf{android app} along with a Do not Disturb (DND) option
+	\item Implemented \textbf{Image Processing} algorithms using \textbf{OpenCV} on \textbf{RaspberryPi} (RPi) for gesture recognition
+	\item Improved gesture recognition accuracy by employing \textbf{Machine Learning} using \textbf{scikit-learn} in python
+    \item Integrated RPi with \textbf{knock detector circuit} such that it unlocks only on a unique knock pattern
+\end{itemize}
+\vspace{-2.5pt}
+\textbf{\large Technologies for Soldier Support} \hfill{\em Dec'17-Jan'18}\\
+{\it{Part of an 8 member team that represented IIT Bombay in the Inter IIT Technical Meet held at IIT Madras} }\\ \vspace{-15pt}
+\begin{itemize}[label=\textcolor{myblue}{\textbullet},itemsep = -0.75 mm, leftmargin=5.5mm]\vspace{-2.5pt}
+%\item Represented IIT Bombay in \textbf{Sixth Inter IIT Technical Meet} held at IIT Madras
+	\item Fabricated a smart glove using \textbf{flex sensors} and \textbf{accelerometer} to detect soldier's hand gestures
+	\item Built a headband which could monitor Soldier's important physiological parameters such as Heartbeat, Temperature and Head Impact Force using \textbf{optical pulse sensor, temperature sensor} and \textbf{accelerometer}
+\end{itemize}
+\vspace{-2.5pt}
+\textbf{\large{Reaction Game}} \hfill{\em Feb'18-Mar'18}\\
+{\it{Guide: Prof. M.P. Desai, Electrical Engineering}}\hfill{\it{Course Project}}
+\begin{itemize}[label=\textcolor{myblue}{\textbullet},itemsep = -0.75 mm, leftmargin=5.5mm]\vspace{-2.5pt}
+%\item Designed and implemented a third order chaotic oscillator for encryption and decryption 
+	\item Designed an arcade game that tests the player's reflexes using a \textbf{CPLD board} 
+	\item Modelled the game as a \textbf{Finite State Mealy Machine} using the concepts of Register Transfer Level (RTL) for the operation of LEDs and push-buttons, and to display the player's score on an LED panel
+\end{itemize}
+\vspace{-2.5pt}
+\textbf{\large{DC Motor Speed Regulator}} \hfill{\em Mar'17}\\
+{\it{Guide: Prof. M.B. Patil, Electrical Engineering}}\hfill{ \it{Course Project}}
+\begin{itemize}[label=\textcolor{myblue}{\textbullet},itemsep = -0.75 mm, leftmargin=5.5mm]\vspace{-2.5pt}
+\item Varied the speed of DC motor employing \textbf{Pulse Width Modulation} (PWM) technique using digital ICs
+	%\item Used \textbf{Pulse Width Modulation} (PWM) technique to vary speed of DC motor 
+	\item Designed the circuit using \textbf{Preset Counter}, \textbf{J-K flip flops} and various other ICs
+\end{itemize}
+\vspace{-2.5pt}
+\textbf{\large Multi-Client Server using Forking} \hfill{\em Aug'17}\\
+{\it{Guide: Prof. Mythili Vutukuru, Computer Science Engineering} }\hfill{\it{Course Project}}
+\begin{itemize}[label=\textcolor{myblue}{\textbullet},itemsep = -0.75 mm, leftmargin=5.5mm]\vspace{-2.5pt}
+\item Programmed a \textbf{TCP server} in C++ which connects to various clients simultaneously 
+	\item Created a map which takes key-value pairs from clients and stores it, while also serving to any client
+\end{itemize}
+
+
+
+\vspace{-15pt}
+
+%-------------------------------------------------------------------------------------
+%   PoR SECTION
+%-------------------------------------------------------------------------------------
+ 
+\section*{\LARGE \color{myblue}Positions of Responsibility\xfilll[0pt]{1pt}}
+
+\vspace{-6pt}
+\textbf{\large{Subsystem Leader, Electrical Subsystem, Advitiy}} \hfill{ \em Feb'18-Present}\\
+{\it Advitiy is the 2nd student satellite of IITB, technically advanced and efficient version of the 1st, Pratham }\\\
+\vspace{-17pt}
+\begin{itemize}[label=\textcolor{myblue}{\textbullet},itemsep = -0.9 mm, leftmargin=5.5mm]
+    \item Spearheaded a \textbf{10 membered} inter-disciplinary team of two subdivisions, Power and On-Board Computer to design the power distribution circuit, interface with peripherals and implement the control algorithm
+    \item Ensured implementation of \textbf{Quality Assurance Practices} to guarantee \textbf{100\%} reliability %verified by ISRO scientists
+	\item Recruited \textbf{9 candidates} from over \textbf{100 applicants} by conducting a three stage selection procedure which tested technical skills, practical approach and teamwork
+	\item Contributed to {\bf Satellite 101 wiki}, a compilation of exhaustive knowledge of satellite project which reached {\bf 5.8k} page views and {\bf 1.4k} users around the globe within a month
+
+
+\end{itemize}
+\vspace{-15pt}
+
+
+%-------------------------------------------------------------------------------------
+%   TECHNICAL SKILLS SECTION
+%-------------------------------------------------------------------------------------
+ 
+
+\section*{\LARGE \color{myblue}Technical Skills\xfilll[0pt]{1pt}}
+\vspace{-6pt}
+\iffalse
+\begin{itemize}[label=\textcolor{myblue}{\textbullet},itemsep = -0.75 mm, leftmargin=5.5mm]
+\item \textbf{Programming Languages:} C++, C, Python, Java, SQL, VHDL
+\item \textbf{Web Development Languages:} HTML, CSS, JavaScript, PHP
+\item \textbf{Others:} MATLAB, GNU, Android Studio, Git, NGSPICE, AutoCAD, SEQUEL, SolidWorks, \LaTeX\
+\end{itemize}
+\fi
+
+\begin{tabular}{l l}
+
+
+\hspace{-6pt} \textbf{Languages} &  \ \  \ \ \  \ \ \ \  \ \ \ \ \ \ \ \ Google Go, SQL, VHDL, C, C++, Python, Embedded C, Java   \vspace{4pt}\\
+\hspace{-6pt} \textbf{Micro-controller Programming} &   \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  Atmel Studio, ArduinoIDE, RPi  \vspace{4pt}\\
+
+%\textbf{Operating Systems} & \ \ \ \ \  \ \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \   Linux,Windows \vspace{4pt}\\
+
+\hspace{-6pt} \textbf{Simulation and CAD Softwares} &   \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \   Proteas, NGSpice, SolidWorks, AutoCAD \vspace{4pt}\\
+\hspace{-6pt} \textbf{Other Softwares and Modules} &   \ \ \ \ \ \ \ \ \  \ \ \ \ \ \ \ \  Android Studio, GNURadio, Quartus, OpenCV, Scikit-Learn, Git\vspace{4pt}\\
+
+
+	
+\end{tabular}
+\vspace{-15pt}
+
+
+%-------------------------------------------------------------------------------------
+%   KEY COURSES UNDERTAKEN SECTION
+%-------------------------------------------------------------------------------------
+ 
+\section*{\LARGE \color{myblue}Key Courses Undertaken\xfilll[0pt]{1pt}}
+\vspace{-6pt}
+\begin{tabular}{p{54mm} p{11.2cm}}
+    \hspace{-6pt} \textbf{Electrical Engineering } &  Signals and Systems, Analog and Digital Systems, Communication Systems*, Power Electronics, Microprocessors*\\
+    %\vspace{-0.2cm}
+ \hspace{-6pt} \textbf{Computer Science } &  Digital Image Processing*, Introduction to Machine Learning*, Computer Networks, Data Structures and Algorithms\\
+ \hspace{-6pt} \textbf{Mathematics and Statistics } &  Data  Analysis  and  Interpretation, Probability and Random Processes*\\
+
+  \end{tabular}
+\vspace{-20pt}\\
+\begin{flushright}
+*\textit {to be completed by November '18}
+\end{flushright}
+
+\vspace{-24pt}
+
+%-------------------------------------------------------------------------------------
+%   EXTRACURRICULARS SECTION
+%-------------------------------------------------------------------------------------
+
+\section*{\LARGE \color{myblue}Extra Curricular Activities\xfilll[0pt]{1pt}}
+\begin{itemize}[label=\textcolor{myblue}{\textbullet},itemsep = -0.75 mm, leftmargin=5.5mm]
+\vspace{-6pt}
+\item \noindent \textbf{Social Work} \\[-0.6cm]
+    \begin{itemize}\itemsep \isep
+	\item Volunteered in \textbf{NGO Vidya} for tutoring financially and socially underprivileged children
+	\item Taught English to college kitchen staff as a part of \textbf{Adult Literacy Program (ALP)}, NSS
+	\item Devoted \textbf{80+ Hours} to Social Service under \textbf{National Service Scheme, IIT Bombay}
+%	\item Assisted in setting up \textbf{150+ Free Diabetes Screening Camps} to spread awareness among 100,000+ people
+	\item Helped in \textbf{organizing CURED}: a diabetes awareness campaign attempting \textbf{Guinness World Record} for maximum number of glucose level check-ups covering \textbf{200+ camps in 10 states}
+	\end{itemize}
+\item \noindent Successfully completed \textbf{Mountaineering Adventure Course (MAC)} which is affiliated to Government of India and Government of Jammu and Kashmir
+\item \noindent Successfully completed \textbf{Swimming Camp} conducted by sports council as a part of Summer of Sports
+
+\item \noindent Presented \textbf{Pratham, IIT Bombay Student Satellite} in a national exhibition before an audience of over 400
+%\item \noindent Anchored \textbf{Mood Indigo Idol Semi-Final} before an audience of over 200
+%\item \noindent Enthusiastic synthesizer player
+\end{itemize}
+\vspace{-15pt}
+
+
+}
+\end{document}
